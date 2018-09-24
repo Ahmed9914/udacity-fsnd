@@ -54,6 +54,7 @@ br3ndonland
     - `q` to quit
     
 - Removing files with `rm`
+  - To show a warning message before removing a file, use `$ rm -i valuable.txt`.
   - You have four files named Good File, Bad Name Good File, Bad File, Good Name Bad Face. You want to remove files 3 and 4, while leaving 1 and 2 intact. There are two commands below that will accomplish this goal. Choose them:
     - `$ rm 'Bad File' 'Good Name Bad Face'`
     - `$ rm *Bad F*`
