@@ -46,6 +46,13 @@ br3ndonland
     - `$ curl -o dictionary.txt -L 'https://tinyurl.com/zeyq9vc'`
   - By the way, a lot of URLs have special characters in them, such as the & sign, which have unusual meanings to the shell. That's why I'm always putting these URLs in quotes … even though these particular examples would work without them, it's a good practice to get into.
   - Also see cs50 Lecture 06 HTTP
+
+- Showing the file using `cat` command and some of its choices are:
+    - `b` for going back.
+    - `space` for scrolling to the next page or arrows for navigation.
+    - `/` for searching for a word.
+    - `q` to quit
+    
 - Removing files with `rm`
   - You have four files named Good File, Bad Name Good File, Bad File, Good Name Bad Face. You want to remove files 3 and 4, while leaving 1 and 2 intact. There are two commands below that will accomplish this goal. Choose them:
     - `$ rm 'Bad File' 'Good Name Bad Face'`
