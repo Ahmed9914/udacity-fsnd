@@ -55,9 +55,11 @@ br3ndonland
     
 - Removing files with `rm`
   - To show a warning message before removing a file, use `$ rm -i valuable.txt`.
+  - For removing directory we use `rmdir` command followed by a directory to remove.
   - You have four files named Good File, Bad Name Good File, Bad File, Good Name Bad Face. You want to remove files 3 and 4, while leaving 1 and 2 intact. There are two commands below that will accomplish this goal. Choose them:
     - `$ rm 'Bad File' 'Good Name Bad Face'`
     - `$ rm *Bad F*`
+    
 - Searching and pipes with `grep` and `wc`
   - *How many words are there in dictionary.txt that match the pattern ibo?*
     - `$ grep ibo dictionary.txt | wc -l` runs the `grep` command, searches for the string `ibo` in dictionary.txt, and invokes the `wc` word count function to count the number of lines with the `-l` argument.
