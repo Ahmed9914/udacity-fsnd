@@ -62,7 +62,7 @@ br3ndonland
     
 - Searching and pipes with `grep` and `wc`
   - *How many words are there in dictionary.txt that match the pattern ibo?*
-    - `$ grep ibo dictionary.txt | wc -l` runs the `grep` command, searches for the string `ibo` in dictionary.txt, and invokes the `wc` word count function to count the number of lines with the `-l` argument.
+    - `$ grep ibo dictionary.txt | wc -l` runs the `grep` command, searches for the string `ibo` in dictionary.txt, and invokes the `wc` word count function to count the number of lines with the `-l` argument, it's the same as `$ grep -c ibo dictionary.txt`.
   - *What are grep patterns called?- Research question! You can use grep for more than just matching words. There's a specific term for the patterns that grep lets you use. Use your favorite search engine and do a little research to find out what those patterns are called.
     - *regular expressions*
     - Regular expressions are also known as regexps or regexes. There is actually a whole complex language of patterns that you can use with `grep` … which is entirely beyond the scope of this course. And regular expressions are used in lots of other programs too, including text editors … and this quiz. The regular expression used to match correct answers to this quiz is `^[Rr]eg.*[Ee]x.*` which means "any string that starts with `reg` and has `ex` in it, but upper- and lowercase R and E are both OK.
